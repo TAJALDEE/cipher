@@ -3,6 +3,8 @@ import { LightAsync as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { a11yDark } from 'react-syntax-highlighter/dist/cjs/styles/hljs';
 
 const CaesarCipher = () => {
+  // declaring variables
+  // useState in js used for udating variables without refreshing the page
   const [text, setText] = useState('');
   const [shift, setShift] = useState(0);
   const [encryptedText, setEncryptedText] = useState('');
